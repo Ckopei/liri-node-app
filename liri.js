@@ -34,7 +34,7 @@ function concertThis() {
         console.log("Venue: " + response.data[i].venue.name);
         console.log("Location: " + response.data[i].venue.city);
         //Week4/Day_03/21
-        console.log("Time: "+ moment(response.data[i].datetime).format("MM/DD/YYYY"))
+        console.log("Time: "+ moment(response.data[i].datetime).format("MM/DD/YYYY hh:mm"))
       }
     }).catch(function (err) {
       console.log(err);
