@@ -27,6 +27,18 @@ function spotifyThis(input) {
 }
 
 function concertThis() {
+  axios.get("https://rest.bandsintown.com/artists/" + userInput + "/events?app_id=codingbootcamp").then(
+    function (response) {
+      //loop through every response and output for each.
+      for (let i = 0; i < response.data.length; i++) {
+        console.log("Venue: " + response.data[i].venue.name);
+        console.log("Location: " + response.data[i].venue.city);
+        //Week4/Day_03/21
+        console.log("Time: "+ moment(response.data[i].datetime).format("MM/DD/YYYY"))
+      }
+    }).catch(function (err) {
+      console.log(err);
+    });
 
 }
 function movieThis() {
