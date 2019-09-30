@@ -85,7 +85,7 @@ function movieThis(input) {
   }
 }
 function doWhatItSays() {
-  //week5day4-12
+  // for 
   fs.readFile("random.txt", "utf8", function (error, data) {
     if (error) {
       throw error;
