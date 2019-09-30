@@ -6,17 +6,17 @@ This is a Node.js app that takes user input from the CLI and searches for info o
 
   ### Modules Used
 
-  -Axios for API calls
-  -Node-Spotify-API for simplifying the API call for songs.
-  -Moment.js for datetime structuring
-  -DotEnv for management of keys and secrets.
-  -Node's core Fs module
+  - Axios for API calls
+  - Node-Spotify-API for simplifying the API call for songs.
+  - Moment.js for datetime structuring
+  - DotEnv for management of keys and secrets.
+  - Node's core Fs module
 
   ### APIs used
 
-  -Spotify
-  -Bands In Town
-  -OMDB 
+  - Spotify
+  - Bands In Town
+  - OMDB 
 
 ## How this app works
 
