@@ -22,6 +22,10 @@ This is a Node.js app that takes user input from the CLI and searches for info o
 
 This app takes arguments from the command line for it's four functions. It looks at process.argv[2] for which function to call, and it takes any further array items as arguments for that function.
 
+**Note,** If you plan to clone this, you will need to add a .env file with a Spotify key and secret for it to function as intended.
+
+
+
 ## Using Liri
 
 ### Spotify
