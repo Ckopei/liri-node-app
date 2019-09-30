@@ -1,10 +1,10 @@
-#Liri-Node-App
+# Liri-Node-App
 
 This is a Node.js app that takes user input from the CLI and searches for info on movies, songs on Spotify, and upcoming concerts.
 
-##Technologies Used
+## Technologies Used
 
-  ###Modules Used
+  ### Modules Used
 
   -Axios for API calls
   -Node-Spotify-API for simplifying the API call for songs.
@@ -12,19 +12,19 @@ This is a Node.js app that takes user input from the CLI and searches for info o
   -DotEnv for management of keys and secrets.
   -Node's core Fs module
 
-  ###APIs used
+  ### APIs used
 
   -Spotify
   -Bands In Town
   -OMDB 
 
-##How this app works
+## How this app works
 
 This app takes arguments from the command line for it's four functions. It looks at process.argv[2] for which function to call, and it takes any further array items as arguments for that function.
 
-##Using Liri
+## Using Liri
 
-###Spotify
+### Spotify
 This function searches spotify for a song.
 
 It will return:
@@ -41,7 +41,7 @@ node liri spotify-this-song <song>
 Spaces are accepted. If correct, it will function as shown below.
 ![Image of Spotify](./gifs/spotify-this-gif.gif)
 
-###Movie Search
+### Movie Search
 
 This function seaerches the OMDB database for a movie and returns:
 
@@ -61,7 +61,7 @@ node liri movie-this <movie>
 Spaces are accepted. If correct, it will function as shown below.
 ![Image of Spotify](./gifs/movie-this-gif.gif)
 
-###Concert Search
+### Concert Search
 
 This function uses the Bands In Town API to search for upcoming concerts and returns:
 
@@ -77,7 +77,7 @@ Spaces are accepted. If correct, it will function as shown below.
 ![Image of Spotify](./gifs/concert-this-gif.gif)
 
 
-###Do-What-It-Says
+### Do-What-It-Says
 
 This function uses the Fs module to read inside the random.txt, and accept the contents as Liri would accept a command line argument.
 
